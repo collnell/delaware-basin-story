@@ -419,7 +419,8 @@
   #temp-image-wrapper {
     align-self: start;
     position: sticky;
-    top: 25%;
+    top: 40%;
+    left: 5%;
     z-index: 1;
     display: grid;
     grid-template-columns: 1fr;  
@@ -468,9 +469,13 @@
 
 // General structure of trout and mussels image grid box
 
-
   //structure of mussels section
   #mussels-container {  
+    #mussels {
+      position: relative;
+      margin-top: 10%;
+    }
+
     .fade-enter-active, .fade-leave-active {
       transition: opacity 1.5s;
     }
