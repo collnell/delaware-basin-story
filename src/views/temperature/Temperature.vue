@@ -461,7 +461,7 @@
       justify-items: center;
       
       #temp-image-wrapper {
-        top: 10rem;        
+        top: 15rem;        
       }
     }
   }
@@ -474,6 +474,7 @@
     #mussels {
       position: relative;
       margin-top: 10%;
+      background-color: pink;
     }
 
     .fade-enter-active, .fade-leave-active {
